@@ -1,0 +1,38 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+    defaultConfig {
+        applicationId 'com.land.pitech09.krishii'
+        minSdkVersion 19
+        targetSdkVersion 23
+        versionCode 2
+        versionName "1.1"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.github.nkzawa:socket.io-client:0.3.0'
+    compile 'com.roughike:bottom-bar:2.0.2'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:cardview-v7:23.0.+'
+    compile 'com.android.support:design:23.4.0'
+    compile 'com.mcxiaoke.volley:library-aar:1.0.0'
+    compile 'com.github.bumptech.glide:glide:3.5.2'
+    compile 'com.android.support:recyclerview-v7:23.3.0'
+    compile 'com.github.bumptech.glide:glide:3.5.2'
+    compile 'com.google.android.gms:play-services-maps:9.2.0'
+    compile 'com.google.android.gms:play-services-location:9.2.0'
+    compile 'com.weiwangcn.betterspinner:library-material:1.1.0'
+}

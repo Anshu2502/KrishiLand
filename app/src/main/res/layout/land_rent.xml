@@ -1,0 +1,184 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="300dp"
+    >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="MORE DETAIL"
+        android:textColor="#FFF"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:background="#048d1d"/>
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:id="@+id/t2"
+        android:background="#fff"
+        android:layout_below="@+id/t1"
+        android:layout_height="match_parent" >
+
+    <View
+        android:layout_below="@id/t2"
+        android:id="@+id/view2aa"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#fff" />
+
+
+    <!-- Table Row 1 -->
+    <TableRow
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/statusa"
+            android:layout_marginLeft="15dp"
+            android:text="Property Status : "
+            android:width="120dp"
+            android:textColor="#180000"
+            android:textSize="16dp"/>
+
+
+        <TextView
+
+            android:id="@+id/statusb"
+            android:layout_marginLeft="15dp"
+            android:width="120dp"
+            android:textColor="#180000"
+            android:textSize="16dp"/>
+    </TableRow>
+
+        <TableRow
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/neighbouta"
+                android:layout_marginLeft="15dp"
+                android:text="Near Property : "
+                android:width="120dp"
+                android:textColor="#180000"
+                android:textSize="16dp"/>
+
+
+            <TextView
+
+                android:id="@+id/neighboutb"
+                android:layout_marginLeft="15dp"
+                android:width="120dp"
+                android:textColor="#180000"
+                android:textSize="16dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/sizea"
+                android:layout_marginLeft="15dp"
+                android:text="Land Size : "
+                android:width="120dp"
+                android:textColor="#180000"
+                android:textSize="16dp"/>
+
+
+            <TextView
+
+                android:id="@+id/sizeb"
+                android:layout_marginLeft="15dp"
+                android:width="120dp"
+                android:textColor="#180000"
+                android:textSize="16dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/noticea"
+                android:layout_marginLeft="15dp"
+                android:text="Notice Time : "
+                android:width="120dp"
+                android:textColor="#180000"
+                android:textSize="16dp"/>
+
+
+            <TextView
+
+                android:id="@+id/noticeb"
+                android:layout_marginLeft="15dp"
+                android:width="120dp"
+                android:textColor="#180000"
+                android:textSize="16dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/timea"
+                android:layout_marginLeft="15dp"
+                android:text="Time Duration : "
+                android:width="120dp"
+                android:textColor="#180000"
+                android:textSize="16dp"/>
+
+
+            <TextView
+
+                android:id="@+id/timeb"
+                android:layout_marginLeft="15dp"
+                android:width="120dp"
+                android:textColor="#180000"
+                android:textSize="16dp"/>
+        </TableRow>
+        <View
+            android:layout_below="@id/timeb"
+            android:id="@+id/view2ab"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#fff" />
+
+
+    </TableLayout>
+
+    <!--   <EditText
+           android:id="@+id/username"
+           android:inputType="textEmailAddress"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="16dp"
+           android:layout_marginLeft="4dp"
+           android:layout_marginRight="4dp"
+           android:layout_marginBottom="4dp"
+           android:hint="username" />
+
+       <EditText
+           android:id="@+id/password"
+           android:inputType="textPassword"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="4dp"
+           android:layout_marginLeft="4dp"
+           android:layout_marginRight="4dp"
+           android:layout_marginBottom="16dp"
+           android:fontFamily="sans-serif"
+           android:hint="password"/>-->
+
+    <android.support.v7.widget.AppCompatButton
+
+        android:layout_marginStart="75dp"
+        android:layout_marginEnd="75dp"
+        android:layout_below="@+id/text"
+        android:id="@+id/declineButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#34853b"
+        android:textColor="#fff"
+        android:padding="12dp"
+        android:text="OK"/>
+
+</LinearLayout>

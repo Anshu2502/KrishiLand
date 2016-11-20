@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Krishi Land</string>
+    <string name="action_settings">Settings</string><string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="section_format">Page %1$d</string>
+    <string-array name="action">
+        <item>Contract Farming</item>
+        <item>Lease</item>
+        <item>Rent</item>
+        <item>Sales</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>Agriculture Equipment</item>
+        <item>Land</item>
+        <item>Tractor</item>
+    </string-array>
+
+    <string-array name="cities">
+        <item>Shahdol</item>
+        <item>Mumbai</item>
+        <item>Pune</item>
+        <item>SriNagar</item>
+        <item>Jaipur</item>
+        <item>Goa</item>
+        <item>Chennai</item>
+        <item>Bangalore</item>
+        <item>Indore</item>
+        <item>Delhi</item>
+        <item>Goa</item>
+        <item>Chennai</item>
+        <item>Bangalore</item>
+        <item>SriNagar</item>
+        <item>Jaipur</item>
+    </string-array>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">Finish</string>
+
+    <string name="slide_1_title">Land</string>
+    <string name="slide_1_desc">Choose the desired Land to buy or take on rent from the listed properties.</string>
+
+    <string name="slide_2_title">Vehicle</string>
+    <string name="slide_2_desc">Thinking of purchasing a vehicle? We help you to buy the right vehicle for you.</string>
+
+    <string name="slide_3_title">Equipments</string>
+    <string name="slide_3_desc">Want to buy an Agriculture equipment ? Find it from here. </string>
+
+    <string name="slide_4_title">KrishiLand</string>
+    <string name="slide_4_desc">KrishiLand </string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+</resources>

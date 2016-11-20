@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:gravity="center|bottom"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+
+
+            <ImageView
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/logo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="KrishiLand"
+                android:id="@+id/txt"
+                android:layout_alignParentTop="true"
+                android:elevation="4dp"
+                android:textSize="50dp"
+                android:textColor="#77bc28"/>
+
+
+                <EditText android:id="@+id/editTextEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:textColor="#000"
+                    android:hint="Email" />
+
+
+
+                <EditText android:id="@+id/editTextPassword"
+                    android:layout_width="match_parent"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:hint="Password"/>
+
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/buttonLogin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#34853b"
+                android:textColor="#fff"
+                android:layout_marginBottom="24dp"
+                android:padding="12dp"
+                android:text="Login"/>
+
+            <TextView android:id="@+id/linkSignup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:text="No account yet? Create one"
+                android:gravity="center"
+                android:textColor="#000"
+                android:textSize="16dip"/>
+
+        </LinearLayout>

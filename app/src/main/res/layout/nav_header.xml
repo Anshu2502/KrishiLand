@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:gravity="center"
+    android:background="@drawable/nav_header"
+    android:layout_width="match_parent"
+    android:layout_height="190dp">
+
+        <com.example.pitech09.krishii.RoundedImageView
+            android:layout_marginTop="15dp"
+            android:id="@+id/imgg"
+            android:src="@drawable/person"
+            android:layout_width="100dp"
+            android:layout_weight="1"
+            android:layout_height="0dp"/>
+
+        <TextView
+            android:id="@+id/tv_email"
+            android:textColor="@color/White"
+            android:textSize="25sp"
+            android:textStyle="bold|italic"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    <!--<org.pitechnologies.teacher.RoundedImageView
+        android:id="@+id/imgg"
+        android:src="@drawable/ic_person"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="5dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="left"
+        android:layout_weight="1"
+        android:layout_height="0dp" />
+    <TextView
+        android:id="@+id/tv_email"
+        android:textColor="@color/icons"
+        android:textSize="18sp"
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />-->
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:drawableLeft="@mipmap/ic_cancel"
+        android:textColor="#003300"
+        android:text="jahsdgjhasd"
+        android:id="@+id/text11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </TextView>
+
+
+    <View
+        android:id="@+id/viewb"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:layout_marginTop="6dp"
+        android:layout_below="@+id/text11"
+        android:background="@android:color/transparent" />
+
+    <TextView
+        android:drawableLeft="@mipmap/ic_cancel"
+        android:textColor="#003300"
+        android:text="jahsdgjhasd"
+        android:layout_below="@id/text11"
+        android:id="@+id/text12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </TextView>
+
+    <View
+        android:id="@+id/viewc"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:layout_marginTop="6dp"
+        android:layout_below="@+id/text12"
+        android:background="@android:color/transparent" />
+
+    <TextView
+        android:drawableLeft="@mipmap/ic_cancel"
+        android:textColor="#003300"
+        android:text="jahsdgjhasd"
+        android:layout_below="@id/text12"
+        android:id="@+id/text13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </TextView>
+
+</LinearLayout>

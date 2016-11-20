@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@mipmap/agri_3"
+    android:layout_height="fill_parent"
+    android:windowSoftInputMode="adjustPan|adjustResize"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp">
+
+
+    <EditText
+        android:id="@+id/query"
+        android:hint="Type Your Enquiry Here"
+        android:textColorHint="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:textColor="#fff"
+        android:inputType="textMultiLine"
+        android:gravity="top|left"
+        android:cursorVisible="false"
+        android:scrollbars="vertical" />
+
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/buttonEnquery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#34853b"
+            android:textColor="#fff"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:text="Send Query"/>
+
+    </LinearLayout>

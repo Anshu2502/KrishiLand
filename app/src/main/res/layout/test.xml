@@ -1,0 +1,173 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_below="@id/view2b"
+    android:id="@+id/t1"
+    android:layout_weight="1"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+    android:layout_height="match_parent" >
+
+    <View
+        android:layout_below="@id/t2"
+        android:id="@+id/view2aa"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#fff" />
+
+    <TextView
+        android:fontFamily="sans-serif"
+        android:layout_below="@+id/t1"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Price"
+        android:drawableLeft="@mipmap/ic_monetization_on_black_24dp"
+        android:textStyle="normal|italic"
+        android:textColor="#379206"
+        android:id="@+id/pri"
+        android:layout_alignParentTop="true"
+        android:elevation="4dp"
+        android:textSize="25dp" />
+
+    <View
+        android:layout_below="@id/txt"
+        android:id="@+id/view2w"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#999"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"/>
+    <!-- Table Row 1 -->
+
+    <TableRow
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_weight="0.2"
+            android:layout_marginLeft="15dp"
+            android:text="Price"
+            android:width="0dp"
+            android:layout_width="0dp"
+            android:textColor="#180000"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:layout_weight="0.1"
+            android:width="0dp"
+            android:layout_width="0dp"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:text=":"
+            android:textColor="#180000"
+            android:textSize="16dp" />
+
+
+        <TextView
+
+            android:width="0dp"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/price"
+            android:text="Price Here"
+            android:layout_width="0dp"
+            android:textColor="#180000"
+            android:textSize="16dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_weight="0.2"
+            android:layout_marginLeft="15dp"
+            android:text="First Half"
+            android:width="0dp"
+            android:layout_width="0dp"
+            android:textColor="#180000"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:layout_weight="0.1"
+            android:width="0dp"
+            android:layout_width="0dp"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:text=":"
+            android:textColor="#180000"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/beforeprice"
+            android:layout_marginLeft="15dp"
+            android:text="city Here"
+            android:width="0dp"
+            android:layout_width="0dp"
+            android:textColor="#180000"
+            android:textSize="16dp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_weight="0.2"
+            android:layout_marginLeft="15dp"
+            android:text="Second Half"
+            android:width="0dp"
+            android:layout_width="0dp"
+            android:textColor="#180000"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:layout_weight="0.1"
+            android:width="0dp"
+            android:layout_width="0dp"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:text=":"
+            android:textColor="#180000"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/afterprice"
+            android:layout_marginLeft="15dp"
+            android:text="city Here"
+            android:width="0dp"
+            android:layout_width="0dp"
+            android:textColor="#180000"
+            android:textSize="16dp"/>
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_weight="0.4"
+            android:layout_marginLeft="15dp"
+            android:text="Security Amount "
+            android:width="5dp"
+            android:layout_width="0dp"
+            android:textColor="#180000"
+            android:textSize="16dp"/>
+
+        <TextView
+
+            android:layout_weight="0.1"
+            android:width="0dp"
+            android:layout_width="0dp"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:text=":"
+            android:textColor="#180000"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/secutity"
+            android:layout_marginLeft="15dp"
+            android:text="Security"
+            android:width="120dp"
+            android:textColor="#180000"
+            android:textSize="16dp"/>
+    </TableRow>
+</TableLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@mipmap/ic_home_black_24dp"/>
+
+        <item
+            android:id="@+id/login"
+            android:title="Login"
+            android:icon="@mipmap/ic_exit_to_app_black_24dp"/>
+
+        <item
+            android:id="@+id/register"
+            android:title="Register"
+            android:icon="@mipmap/ic_exit_to_app_black_24dp"/>
+
+
+        <item
+            android:id="@+id/profile"
+            android:title="Profile"
+            android:icon="@drawable/ic_person"/>
+
+
+        <item
+            android:id="@+id/password"
+            android:title="Change Password"
+            android:icon="@mipmap/ic_build_black_24dp"/>
+
+        <item
+            android:id="@+id/logout"
+            android:title="Logout"
+            android:icon="@mipmap/ic_exit_to_app_black_24dp"/>
+
+
+
+
+
+    </group>
+</menu>

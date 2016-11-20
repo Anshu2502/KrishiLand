@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+    <tab
+        android:layout_height="50dp"
+        android:id="@+id/tab_favorites"
+        android:icon="@mipmap/ic_directions"
+        android:title="Land" />
+
+    <tab
+        android:layout_height="50dp"
+        android:id="@+id/tab_nearby"
+        android:icon="@mipmap/ic_directions"
+        android:title="Vehicle" />
+
+    <tab
+        android:layout_height="50dp"
+        android:id="@+id/tab_friends"
+        android:icon="@mipmap/ic_inbox_black_24dp"
+        android:title="Equipment" />
+
+</tabs>
